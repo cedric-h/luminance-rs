@@ -75,6 +75,11 @@ path = "src/interactive-triangle.rs"
 name = "skybox"
 path = "src/skybox.rs"
 
+# Fixtures
+[[bin]]
+name = "fixture-360"
+path = "src/fixtures/360-manually-drop-framebuffer.rs"
+
 [dependencies]
 cgmath = "0.17"
 env_logger = "0.7.1"
